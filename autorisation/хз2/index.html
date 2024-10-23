@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="registration-form">
+            <h2>Регистрация</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-column">
+                        <div class="input-group">
+                            <label for="login">Логин</label>
+                            <input type="text" id="login" placeholder="Логин">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="birthdate">Дата рождения</label>
+                            <input type="date" id="birthdate">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-column">
+                        <div class="input-group">
+                            <label for="password">Пароль</label>
+                            <input type="password" id="password" placeholder="Пароль">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="gender">Пол</label>
+                            <div class="radio-group">
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Муж</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Жен</label>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="phone" class="phone">Номер</label>
+                            <input type="tel" id="phone" placeholder="Номер">
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
